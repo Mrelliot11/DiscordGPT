@@ -3,9 +3,9 @@ import openai
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
+from pathlib import Path
 
 # Replace these with your Discord bot token and OpenAI API key
-load_dotenv()
 COMMAND_PREFIX = "!"
 
 DISCORD_BOT_TOKEN = os.environ["DISCORD_BOT_TOKEN"]
